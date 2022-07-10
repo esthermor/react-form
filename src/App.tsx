@@ -61,9 +61,9 @@ type SelectType = {
 
 const Select = ({ value, onChange, name }: SelectType) => {
   return (
-    <div className="pa-16">
+    <div className="mb-16">
       <label>{name}</label>
-      <select value={value} onSelect={onChange}>
+      <select value={value} onChange={onChange}>
         <option value="red">Red</option>
         <option value="blue">Blue</option>
       </select>
